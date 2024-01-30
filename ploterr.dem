@@ -1,0 +1,2 @@
+plot 'errfile.dat' with lines
+pause -1 
