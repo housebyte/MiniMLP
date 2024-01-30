@@ -8,4 +8,6 @@ It is quick with configured for 8 hidden neurons and using Tanh it solves the Xo
 
 This is my first GPU NN.
 
+nvcc -arch=sm_50 -rdc=true -o miniml mini_mlp.cu
+
 Enjoy. I thought I would share it as there are few MLP CUDA C++ implementations.
